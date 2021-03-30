@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Split Cost Calculator</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" media="screen">
+</head>
+<body>
+<form>
+    <fieldset class="float">
+        <legend>Pizza Split Cost Calculator</legend>
+        <div class="float-one">
+            <div><p><label for="toppings">How many toppings?</label></p>
+                <p><input type="number" id="toppings" name="toppings"></p></div>
+            <div><p><label for="coworkers">How many coworkers are pitching in?</label></p>
+                <p><input type="number" id="coworkers" name="coworkers"></p></div>
+            <div>
+                <button id="calculate-pizza">Calculate Split Cost</button>
+            </div>
+        </div><!--closes float-one-->
+        <div class="output" id="pizza-form">
+
+        </div> <!--closes output-->
+    </fieldset>
+</form>
+<form>
+    <fieldset class="float">
+        <legend>Late Book Fee Calculator</legend>
+        <div class="float-one">
+            <div><p><label for="days">How many late days have passed?</label></p>
+                <p><input type="number" id="days" name="days"> Days</p></div>
+            <div><p><label for="books">How many books were checked out?</label></p>
+                <p><input type="number" id="books" name="books"> Books</p></div>
+            <div><p><label for="dvds">How many dvds were checked out?</label></p>
+                <p><input type="number" id="dvds" name="dvds"> DVDs</p></div>
+            <div>
+                <button id="calculate-fee">Calculate Late Fee</button>
+            </div>
+        </div><!--closes float-one-->
+        <div class="output" id="book-fee-form">
+
+        </div> <!--closes output-->
+    </fieldset>
+</form>
+<!--JS-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
